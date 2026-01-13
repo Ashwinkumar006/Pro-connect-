@@ -1,0 +1,58 @@
+:root {
+  --bs-body-font: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: var(--bs-body-font);
+  color: #212529;
+  background-color: #ffffff;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Header / nav helpers */
+.header {
+  background: #fff;
+}
+
+.sitename {
+  font-weight: 700;
+  color: #0d6efd;
+}
+
+.navmenu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1rem;
+}
+
+.navmenu a {
+  color: #222;
+  text-decoration: none;
+}
+
+/* Footer / helpers */
+footer {
+  padding: 2rem 0;
+  background: #f8f9fa;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Make sure images don't overflow */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
